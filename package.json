@@ -4,7 +4,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "build": "bun build --compile index.ts --outfile nade"
+    "build": "bun build --compile index.ts --outfile dist/nade"
   },
   "devDependencies": {
     "@types/bun": "latest"
