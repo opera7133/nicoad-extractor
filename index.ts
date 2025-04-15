@@ -4,7 +4,7 @@ import { Command } from "commander";
 const program = new Command();
 
 program
-  .name("nicoad-extractor")
+  .name("nicoad-extractor (nade)")
   .description("ニコニコ動画の広告主を取得するCLIツール")
   .version("0.0.1", "-v, --version");
 

@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "version": "0.0.1",
+  "scripts": {
+    "build": "bun build --compile index.ts --outfile nade"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
